@@ -1,0 +1,23 @@
+.row-heading {
+    display: none;
+}
+
+@media (max-width: 720px) {
+    thead {
+        display: none;
+    }
+    .row-heading {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;;
+    }
+    table, tr, td {
+        display: block;
+        min-height: 2rem;
+    }
+
+    td {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
